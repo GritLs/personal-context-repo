@@ -6,15 +6,15 @@ A self-initializing personal context system for AI-assisted work and life.
 
 ## What This Is
 
-You keep re-explaining yourself to AI — who you are, what you're working on, what changed since last time. `personal-context-repo` fixes that. You drop a single file (`AGENTS.md`) into any directory, start talking to your AI assistant, and it builds a structured context repository around you — in your language, based on your real situation.
+You keep re-explaining yourself to AI — who you are, what you're working on, what changed since last time. `personal-context-repo` fixes that. Clone this repo, start talking to your AI assistant, and it builds a structured context repository around you — in your language, based on your real situation.
 
-After setup, the same file governs how context gets captured, routed, tagged, and maintained across every future conversation. It's not just AI memory. It tracks your projects, decisions, open questions, evolving ideas, and the trail of how your thinking changed over time.
+After setup, `AGENTS.md` governs how context gets captured, routed, tagged, and maintained across every future conversation. It's not just AI memory. It tracks your projects, decisions, open questions, evolving ideas, and the trail of how your thinking changed over time.
 
 ## 🚀 Getting Started
 
-1. Drop `AGENTS.md` into an empty directory or an existing project
-2. Start a conversation with your AI assistant — it detects the repo isn't initialized, asks a few questions about you
-3. AI generates the full structure in your language, populated with your real context
+1. `git clone https://github.com/GritLs/personal-context-repo.git`
+2. Open the directory with your AI assistant (Claude Code, Cursor, Codex, OpenCode, etc.)
+3. Start a conversation — AI detects the repo isn't initialized, asks a few questions about you, and generates the full structure in your language
 
 ## 📁 What Gets Created
 
